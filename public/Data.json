@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://example.com/whatsapp.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp Inc.",
+    "id": 1,
+    "description": "A messaging app for connecting with friends and family worldwide.",
+    "size": 150,
+    "reviews": 1200000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 650000 }
+    ]
+  },
+  {
+    "image": "https://example.com/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Share photos and videos with your friends and followers.",
+    "size": 200,
+    "reviews": 800000,
+    "ratingAvg": 4.5,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://example.com/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Connect with friends, family and communities.",
+    "size": 180,
+    "reviews": 1500000,
+    "ratingAvg": 3.8,
+    "downloads": 6000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://example.com/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "Create and share short videos with music and effects.",
+    "size": 250,
+    "reviews": 900000,
+    "ratingAvg": 4.3,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 440000 }
+    ]
+  },
+  {
+    "image": "https://example.com/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Watch, upload and share videos worldwide.",
+    "size": 300,
+    "reviews": 2000000,
+    "ratingAvg": 4.0,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://example.com/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 6,
+    "description": "Stream movies, TV shows and documentaries.",
+    "size": 120,
+    "reviews": 500000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  },
+  {
+    "image": "https://example.com/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 7,
+    "description": "Listen to music, podcasts and audiobooks.",
+    "size": 100,
+    "reviews": 700000,
+    "ratingAvg": 4.4,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 330000 }
+    ]
+  },
+  {
+    "image": "https://example.com/twitter.png",
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "id": 8,
+    "description": "Share your thoughts and connect with the world.",
+    "size": 80,
+    "reviews": 600000,
+    "ratingAvg": 3.9,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://example.com/linkedin.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "id": 9,
+    "description": "Professional networking and career development.",
+    "size": 90,
+    "reviews": 400000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 140000 }
+    ]
+  },
+  {
+    "image": "https://example.com/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 10,
+    "description": "Share moments with friends through photos and videos.",
+    "size": 200,
+    "reviews": 300000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 105000 }
+    ]
+  },
+  {
+    "image": "https://example.com/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 11,
+    "description": "Video conferencing and online meetings.",
+    "size": 150,
+    "reviews": 250000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://example.com/tinder.png",
+    "title": "Tinder",
+    "companyName": "Match Group, Inc.",
+    "id": 12,
+    "description": "Find your perfect match and start dating.",
+    "size": 100,
+    "reviews": 350000,
+    "ratingAvg": 3.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://example.com/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 13,
+    "description": "Book rides and get food delivered.",
+    "size": 120,
+    "reviews": 450000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 160000 }
+    ]
+  },
+  {
+    "image": "https://example.com/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon.com, Inc.",
+    "id": 14,
+    "description": "Shop millions of products online.",
+    "size": 200,
+    "reviews": 600000,
+    "ratingAvg": 4.3,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://example.com/gmail.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Email service from Google.",
+    "size": 50,
+    "reviews": 800000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 390000 }
+    ]
+  },
+  {
+    "image": "https://example.com/maps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Navigation and location services.",
+    "size": 180,
+    "reviews": 1000000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://example.com/chrome.png",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Fast and secure web browser.",
+    "size": 100,
+    "reviews": 1200000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 560000 }
+    ]
+  },
+  {
+    "image": "https://example.com/drive.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "Store and share files in the cloud.",
+    "size": 80,
+    "reviews": 500000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 75000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "image": "https://example.com/photos.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 19,
+    "description": "Store, organize and edit your photos.",
+    "size": 120,
+    "reviews": 400000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 190000 }
+    ]
+  },
+  {
+    "image": "https://example.com/calendar.png",
+    "title": "Google Calendar",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Organize your schedule and events.",
+    "size": 60,
+    "reviews": 300000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 115000 }
+    ]
+  }
+]
