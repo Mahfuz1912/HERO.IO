@@ -48,12 +48,56 @@ const Installation = () => {
   };
   if (loading) {
     return (
-      <div className="bg-linear-to-b from-gray-100 to-gray-200 py-8 sm:py-10 md:py-12 min-h-screen flex items-center justify-center px-4">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-b-2 border-[#632EE3] mx-auto"></div>
-          <p className="mt-3 sm:mt-4 text-gray-600 text-sm sm:text-base">
-            Loading applications...
-          </p>
+      <div className="py-8 sm:py-10 md:py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 min-h-screen">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-8 sm:mb-10 md:mb-12">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
+              Your Installed Apps
+            </h1>
+            <p className="mt-2 sm:mt-3 text-gray-600 text-sm sm:text-base md:text-lg">
+              Loading your installed applications...
+            </p>
+          </div>
+
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 mb-8">
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700">
+              Loading Apps...
+            </p>
+            <div className="w-full sm:w-48 h-10 bg-gray-300 rounded animate-pulse"></div>
+          </div>
+
+          <div className="space-y-4 sm:space-y-5 md:space-y-6">
+            {Array.from({ length: 6 }).map((_, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-4 sm:p-5 md:p-6 animate-pulse"
+              >
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
+                  <div className="shrink-0">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-lg bg-gray-300"></div>
+                  </div>
+                  <div className="flex-1 text-center sm:text-left w-full">
+                    <div className="h-5 sm:h-6 bg-gray-300 rounded mb-2"></div>
+                    <div className="h-4 bg-gray-300 rounded w-3/4 mb-3"></div>
+                    <div className="flex flex-wrap justify-center sm:justify-start gap-4 sm:gap-6 text-sm sm:text-base">
+                      <div className="flex items-center gap-1 sm:gap-2">
+                        <div className="w-3 h-3 sm:w-4 sm:h-4 bg-gray-300 rounded"></div>
+                        <div className="h-4 bg-gray-300 rounded w-12"></div>
+                      </div>
+                      <div className="flex items-center gap-1 sm:gap-2">
+                        <div className="w-3 h-3 sm:w-4 sm:h-4 bg-gray-300 rounded"></div>
+                        <div className="h-4 bg-gray-300 rounded w-8"></div>
+                      </div>
+                      <div className="h-4 bg-gray-300 rounded w-10"></div>
+                    </div>
+                  </div>
+                  <div className="shrink-0 mt-4 sm:mt-0">
+                    <div className="w-20 sm:w-24 h-8 sm:h-9 bg-gray-300 rounded-lg"></div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );
