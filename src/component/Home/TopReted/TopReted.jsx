@@ -82,7 +82,7 @@ const TopReted = () => {
       </div>
 
       <Link to="/app" className="my-8 sm:my-10 md:my-12 inline-block">
-        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-none hover:from-[#9F62F2] hover:to-[#632EE3] transition-all duration-200 px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base">
+        <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white border-none hover:from-[#9F62F2] hover:to-[#632EE3] transition-all duration-200 px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base">
           Show All
         </button>
       </Link>

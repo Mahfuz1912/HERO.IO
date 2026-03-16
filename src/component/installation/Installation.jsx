@@ -51,6 +51,9 @@ const Installation = () => {
       <div className="py-8 sm:py-10 md:py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 min-h-screen">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
+            <Helmet>
+              <title>Loading Installed Apps - HERO.IO</title>
+            </Helmet>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
               Your Installed Apps
             </h1>
