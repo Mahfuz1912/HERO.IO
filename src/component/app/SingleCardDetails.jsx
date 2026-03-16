@@ -80,8 +80,8 @@ const SingleCardDetails = () => {
 
   return (
     <div className="w-11/12 mx-auto">
-      <div className="flex gap-4 pt-4">
-        <div className="flex w-87.5 h-87.5">
+      <div className="flex gap-4 pt-22">
+        <div className="flex w-1/2 justify-center items-center">
           <img
             src={image}
             alt={title}
@@ -117,7 +117,7 @@ const SingleCardDetails = () => {
           </div>
           <button
             onClick={() => handleInstall(id)}
-            className={`btn text-white ${isInstalled ? "bg-gray-500" : "bg-[#00D390]"} w-1/5`}
+            className={`btn text-white ${isInstalled ? "bg-gray-500" : "bg-[#00D390]"} w-1/5 border-none`}
             disabled={isInstalled}
         
           >
@@ -145,7 +145,7 @@ const SingleCardDetails = () => {
       <div className="divider"></div>
       <div className=" mt-5 ">
         <h1 className="text-2xl font-bold ">Description</h1>
-        <p className="mt-3">{description}</p>
+        <p className="py-4">{description}</p>
       </div>
     </div>
   );

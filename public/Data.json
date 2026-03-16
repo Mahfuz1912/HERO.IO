@@ -1,10 +1,10 @@
 [
   {
-    "image": "https://example.com/whatsapp.png",
+    "image": "https://www.kindpng.com/picc/m/301-3019722_facebook-instagram-whatsapp-png-transparent-png.png",
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp Inc.",
     "id": 1,
-    "description": "A messaging app for connecting with friends and family worldwide.",
+    "description": "Transform your messaging routine into focused communication sessions with WhatsApp's revolutionary Focus Environment mode. This Pomodoro-enhanced messenger helps you batch replies and manage conversations in dedicated 25-minute focus blocks, minimizing distractions while staying connected with friends and family worldwide. The Core Pomodoro Features include customizable work intervals ranging from 15 to 50 minutes, followed by intelligent break reminders that encourage you to step away from your device. Task Integration seamlessly connects with your calendar to schedule message-checking sessions, while Productivity Analytics provide detailed insights into your communication patterns, showing peak response times and conversation volumes. The Motivation and Gamification system rewards you with 'Communication Streaks' for maintaining consistent reply schedules and unlocks achievement badges like 'Quick Responder' and 'Community Manager' when you efficiently manage group chats. Advanced features include 'Deep Work Hours' that automatically silence non-essential conversations and 'Batch Reply Mode' that groups messages for focused response sessions. The analytics dashboard displays your most active hours, average response times, and helps identify when you're most productive at connecting with others. Earn 'Focus Gems' for completing uninterrupted messaging sessions and redeem them for custom themes and notification sounds.",
     "size": 150,
     "reviews": 1200000,
     "ratingAvg": 4.2,
@@ -22,7 +22,7 @@
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 2,
-    "description": "Share photos and videos with your friends and followers.",
+    "description": "Experience mindful social scrolling with Instagram's innovative Focus Environment that transforms content consumption into productive sessions. The app's Core Pomodoro Features allow you to set dedicated intervals for content creation, engagement, and consumption, with intelligent breaks that prevent mindless scrolling. Task Integration seamlessly connects with your content calendar, allowing you to assign specific posts, stories, and engagement activities to focused Pomodoro sessions. Productivity Analytics provide deep insights into your most effective posting times, engagement rates, and follower growth patterns, helping you optimize your content strategy. The Motivation and Gamification system introduces 'Content Creator Streaks' for maintaining consistent posting schedules, with achievement badges like 'Viral Sensation,' 'Engagement Master,' and 'Storyteller Extraordinaire' unlocked as you reach milestones. The Focus Environment includes 'Distraction-Free Creation Mode' that hides all non-essential feeds while you're working on content, and 'Smart Engagement Sessions' that batch your interaction time with followers. Analytics track your creative productivity, showing which types of content take the most time to create and which generate the highest engagement. Earn 'Creation Points' for completing focused content sessions, which can be exchanged for exclusive filters, analytics insights, and profile enhancements. The gamified experience includes monthly challenges where users compete to maintain the highest quality engagement rates, with leaderboards showcasing top creators in different categories.",
     "size": 200,
     "reviews": 800000,
     "ratingAvg": 4.5,
@@ -36,11 +36,11 @@
     ]
   },
   {
-    "image": "https://example.com/facebook.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_de_Facebook.png",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 3,
-    "description": "Connect with friends, family and communities.",
+    "description": "Reimagine social networking with Facebook's Focus Environment designed for meaningful connections without time-wasting distractions. The Core Pomodoro Features include customizable social sessions that help you manage newsfeed consumption, group interactions, and community engagement in structured time blocks. Task Integration allows you to create social goals for each session, whether it's connecting with specific friends, participating in group discussions, or managing your page content. Productivity Analytics provide fascinating insights into your social patterns, showing the quality of interactions, time spent on different types of content, and the emotional valence of your engagements. The Motivation and Gamification system introduces 'Social Connection Streaks' for maintaining meaningful daily interactions, with achievement badges like 'Community Builder,' 'Supportive Friend,' and 'Group Influencer' that recognize positive social contributions. The Focus Environment includes 'Mindful Scrolling Mode' that encourages intentional content consumption and 'Connection Quality Metrics' that help you focus on relationships that matter most. Advanced analytics track your 'Social ROI' - the quality of connections and interactions relative to time invested, helping you optimize your social media presence. Gamification elements include 'Kindness Points' awarded for supportive comments and meaningful interactions, which unlock special profile frames and the ability to highlight important posts. The app's unique 'Digital Wellness Dashboard' shows your social media health score, balancing connection quality with time investment, and provides personalized recommendations for improving your online social experience.",
     "size": 180,
     "reviews": 1500000,
     "ratingAvg": 3.8,
@@ -54,11 +54,11 @@
     ]
   },
   {
-    "image": "https://example.com/tiktok.png",
+    "image": "https://p16-va-tiktok.ibyteimg.com/obj/musically-maliva-obj/4a953b362d24032d2d825d791cc5771d",
     "title": "TikTok",
     "companyName": "ByteDance",
     "id": 4,
-    "description": "Create and share short videos with music and effects.",
+    "description": "Master the art of short-form content creation with TikTok's Creator Focus Environment, designed to maximize your creative output while maintaining healthy viewing habits. The Core Pomodoro Features include specialized creation sessions for video planning, shooting, editing, and engagement, with intelligent break reminders that prevent creator burnout. Task Integration seamlessly connects with your content calendar, allowing you to map out trends, sounds, and effects to specific focused sessions for maximum efficiency. Productivity Analytics provide deep insights into your creative process, tracking time spent on each production phase, optimal posting times, and content performance correlations. The Motivation and Gamification system rewards creators with 'Viral Velocity Points' for consistent posting, 'Trend Setter Badges' for early adoption of successful formats, and 'Engagement Excellence Awards' for maintaining high-quality audience interaction. The Focus Environment includes 'Distraction-Free Studio Mode' that silences notifications and hides the For You Page during creation sessions, while 'Trend Analysis Sessions' help you efficiently research and plan content. Advanced analytics reveal your creative patterns, showing which video styles take less time to produce while generating better engagement, helping you optimize your workflow. Gamification features include 'Creator Levels' that unlock as you complete focused sessions, with each level providing access to exclusive effects, sounds, and analytics tools. Monthly 'Creator Challenges' pit you against peers in maintaining the highest quality-to-time ratios, with winners featured on community leaderboards. The app's unique 'Creative Flow State' tracking helps you identify when you're most productive, recommending optimal creation times based on your historical performance data.",
     "size": 250,
     "reviews": 900000,
     "ratingAvg": 4.3,
@@ -72,11 +72,11 @@
     ]
   },
   {
-    "image": "https://example.com/youtube.png",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small_2x/youtube-logo-youtube-icon-transparent-free-png.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 5,
-    "description": "Watch, upload and share videos worldwide.",
+    "description": "Transform your YouTube experience with Creator Studio Focus Mode, a comprehensive environment for both content creators and conscious consumers. The Core Pomodoro Features offer specialized sessions for video planning, recording, editing, and audience engagement, with adaptive break intervals that maintain creative flow. Task Integration connects directly with your YouTube Studio, allowing you to assign video projects, comment responses, and analytics reviews to specific focused sessions. Productivity Analytics provide creators with detailed insights into their production efficiency, showing time spent on each video phase correlated with final performance metrics. The Motivation and Gamification system introduces 'Creator Milestone Badges' for completing videos within focused sessions, 'Consistent Uploader Streaks' that reward regular posting, and 'Community Champion Awards' for meaningful audience interaction. For viewers, the Focus Environment includes 'Intentional Watching Mode' that helps you create playlists for focused learning or entertainment, with Pomodoro-based viewing sessions that prevent binge-watching. Advanced analytics track your viewing patterns, suggesting optimal times for educational content versus entertainment, and providing insights into your learning efficiency. Gamification elements for creators include 'Production Efficiency Scores' that improve as you complete more focused sessions, unlocking access to advanced analytics and production tools. The app's unique 'Flow State Tracking' helps identify when you're most creatively productive, while 'Audience Engagement Analytics' show which interaction patterns build the strongest community. Earn 'Creation Credits' for completing focused work sessions, redeemable for premium music libraries, stock footage, and channel customization options.",
     "size": 300,
     "reviews": 2000000,
     "ratingAvg": 4.0,
@@ -90,11 +90,11 @@
     ]
   },
   {
-    "image": "https://example.com/netflix.png",
+    "image": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456",
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 6,
-    "description": "Stream movies, TV shows and documentaries.",
+    "description": "Revolutionize your entertainment experience with Netflix's Mindful Viewing Environment, designed to help you enjoy content intentionally without falling into binge-watching patterns. The Core Pomodoro Features introduce 'Viewing Sessions' that structure your entertainment around focused intervals, with automatic pause reminders that encourage healthy viewing habits and breaks between episodes. Task Integration allows you to create 'Watch Lists' that align with your available time blocks, whether it's a 25-minute episode session or a 50-minute movie interval. Productivity Analytics provide fascinating insights into your viewing patterns, showing peak watching times, genre preferences, and how entertainment fits into your daily routine. The Motivation and Gamification system introduces 'Mindful Viewer Badges' for maintaining healthy watching habits, 'Series Completion Streaks' that reward finishing shows within structured sessions, and 'Genre Explorer Achievements' for diversifying your content consumption. The Focus Environment includes 'Immersive Mode' that eliminates all distractions during your viewing sessions, while 'Smart Break Integration' suggests stretching exercises or mindfulness moments between episodes. Advanced analytics track your 'Viewing Health Score', balancing entertainment with other daily activities, and provide personalized recommendations for optimizing your relaxation time. Gamification elements include 'Entertainment Balance Points' awarded for maintaining structured viewing habits, which can be exchanged for behind-the-scenes content, director's commentaries, and exclusive interviews. The app's unique 'Social Viewing Sessions' allow you to synchronize watch parties with friends while maintaining individual focus settings, creating a shared experience without compromising your viewing discipline. Earn 'Focus Tokens' for completing scheduled viewing sessions without distraction, unlocking premium content early and special edition documentaries.",
     "size": 120,
     "reviews": 500000,
     "ratingAvg": 4.6,
@@ -108,11 +108,11 @@
     ]
   },
   {
-    "image": "https://example.com/spotify.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/960px-Spotify_App_Logo.svg.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 7,
-    "description": "Listen to music, podcasts and audiobooks.",
+    "description": "Elevate your audio experience with Spotify's Focus Sound Environment, a comprehensive platform that transforms how you consume and create music, podcasts, and audiobooks. The Core Pomodoro Features include specialized listening sessions for deep work, creative flow, and relaxation, with smart playlists that adapt to your focus intervals and energy levels. Task Integration allows you to assign specific audio content to different types of sessions - productivity playlists for work blocks, learning podcasts for educational intervals, and relaxing sounds for break periods. Productivity Analytics provide deep insights into how different audio affects your focus, tracking concentration levels, task completion rates, and optimal sound environments for various activities. The Motivation and Gamification system introduces 'Focus Listener Badges' for completing deep work sessions with focus music, 'Podcast Marathon Streaks' for structured learning sessions, and 'Genre Explorer Awards' for diversifying your audio diet. The Focus Environment includes 'Flow State Playlists' that automatically adjust tempo and intensity based on your session duration and progress, while 'Distraction-Free Mode' ensures uninterrupted listening during critical focus periods. Advanced analytics reveal correlations between audio choices and productivity metrics, helping you build the perfect soundtrack for different types of work. Gamification elements include 'Focus Points' earned for completing sessions with focus music, redeemable for ad-free listening hours, exclusive podcasts, and artist meet-and-greet opportunities. The app's unique 'Sound Wellness Dashboard' tracks your audio consumption patterns, suggesting optimal listening schedules for maximum productivity and relaxation. Create 'Session Soundtracks' that combine music, nature sounds, and white noise specifically designed for different Pomodoro intervals, with community sharing features that let you discover effective focus playlists from other productive users.",
     "size": 100,
     "reviews": 700000,
     "ratingAvg": 4.4,
@@ -126,11 +126,11 @@
     ]
   },
   {
-    "image": "https://example.com/twitter.png",
+    "image": "https://penji.co/wp-content/uploads/2023/07/X-logo-twitter-1024x574.jpg",
     "title": "Twitter",
     "companyName": "X Corp.",
     "id": 8,
-    "description": "Share your thoughts and connect with the world.",
+    "description": "Reimagine social media engagement with Twitter's Thoughtful Communication Environment, designed to help you participate meaningfully in conversations without getting lost in the noise. The Core Pomodoro Features include structured engagement sessions for reading, responding, and content creation, with intelligent intervals that prevent timeline overwhelm and promote quality interactions. Task Integration allows you to schedule tweet threads, engagement sessions, and list curation activities within focused time blocks, ensuring consistent presence without constant distraction. Productivity Analytics provide insights into your most effective engagement patterns, showing which types of conversations generate meaningful connections and when your audience is most receptive. The Motivation and Gamification system introduces 'Thought Leader Streaks' for consistent valuable contributions, 'Community Builder Badges' for fostering healthy discussions, and 'Engagement Quality Scores' that reward meaningful interactions over volume. The Focus Environment includes 'Curated Timeline Mode' that surfaces only your most important conversations during focused sessions, while 'Deep Reading Mode' transforms threads into distraction-free reading experiences. Advanced analytics track your 'Conversation Health Metrics', analyzing the tone and impact of your engagements to help you build a more positive presence. Gamification elements include 'Influence Points' earned for completing focused engagement sessions, unlocking access to advanced analytics and audience insights. The app's unique 'Thread Planning Studio' helps you structure longer-form content within Pomodoro sessions, with built-in writing and editing tools that maintain your focus. Earn 'Focus Credits' for maintaining disciplined engagement habits, which can be exchanged for profile customization options, premium analytics tools, and exclusive community features.",
     "size": 80,
     "reviews": 600000,
     "ratingAvg": 3.9,
@@ -144,11 +144,11 @@
     ]
   },
   {
-    "image": "https://example.com/linkedin.png",
+    "image": "https://img.freepik.com/premium-vector/linkedin-logo-icon_1273375-1174.jpg?semt=ais_hybrid&w=740&q=80",
     "title": "LinkedIn",
     "companyName": "Microsoft Corporation",
     "id": 9,
-    "description": "Professional networking and career development.",
+    "description": "Transform your professional networking with LinkedIn's Career Focus Environment, a powerful platform for intentional career development and meaningful professional connections. The Core Pomodoro Features offer specialized sessions for networking, content creation, skill development, and job searching, with smart intervals that optimize your professional presence without overwhelming your schedule. Task Integration connects seamlessly with your career goals, allowing you to assign networking outreach, profile optimization, and learning activities to specific focused sessions. Productivity Analytics provide comprehensive insights into your professional growth, tracking connection quality, content engagement, and skill development progress over time. The Motivation and Gamification system introduces 'Career Builder Streaks' for consistent professional development, 'Network Growth Badges' for meaningful connection building, and 'Industry Influencer Awards' for valuable content contributions. The Focus Environment includes 'Distraction-Free Professional Mode' that filters out non-essential content during career development sessions, while 'Smart Networking Assistant' suggests optimal times for reaching out to connections. Advanced analytics reveal your most effective networking patterns, showing which activities lead to the best professional opportunities and relationship building. Gamification elements include 'Career Points' earned for completing focused professional development sessions, unlocking access to LinkedIn Learning courses, premium networking features, and enhanced profile visibility. The app's unique 'Professional Growth Dashboard' tracks your career development metrics, providing personalized recommendations for skill building and network expansion. Earn 'Network Credits' for maintaining consistent, quality professional interactions, which can be exchanged for profile boosts, InMail credits, and career coaching sessions. The platform includes 'Industry Trend Analysis' that helps you align your professional development with market demands, ensuring your focused sessions contribute directly to career advancement.",
     "size": 90,
     "reviews": 400000,
     "ratingAvg": 4.1,
@@ -162,11 +162,11 @@
     ]
   },
   {
-    "image": "https://example.com/snapchat.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJVgLH3Tqvd-de-y0LmN0x0Uu3I2gEuG23w&s",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 10,
-    "description": "Share moments with friends through photos and videos.",
+    "description": "Experience mindful visual communication with Snapchat's Creative Focus Environment, designed for intentional sharing and authentic connections. The Core Pomodoro Features include specialized creation sessions for stories, chats, and content discovery, with smart intervals that encourage quality over quantity in your visual communications. Task Integration allows you to schedule creative sessions for snap planning, filter exploration, and friend engagement, ensuring meaningful connections without constant app checking. Productivity Analytics provide insights into your communication patterns, showing peak creativity times, engagement quality, and the types of visual content that resonate most with your audience. The Motivation and Gamification system introduces 'Creative Streak Badges' for consistent daily snaps, 'Storyteller Achievement Awards' for engaging narrative creation, and 'Friend Connection Points' for meaningful interactions. The Focus Environment includes 'Creative Studio Mode' that provides distraction-free tools for snap creation, while 'Mindful Consumption Sessions' help you engage with friends' content intentionally. Advanced analytics track your 'Visual Communication Quality', helping you understand which types of content strengthen relationships most effectively. Gamification elements include 'Creation Points' earned for completing focused snap sessions, unlocking exclusive filters, lenses, and creative tools. The app's unique 'Memory Lane Analytics' show how your visual communication style evolves, celebrating milestones in your creative journey. Earn 'Focus Gems' for maintaining intentional sharing habits, which can be exchanged for premium creative tools, extended story features, and special event lenses. The platform includes 'Group Connection Sessions' that facilitate meaningful friend group interactions within structured time blocks, helping maintain important relationships without overwhelming your schedule.",
     "size": 200,
     "reviews": 300000,
     "ratingAvg": 4.0,
@@ -180,11 +180,11 @@
     ]
   },
   {
-    "image": "https://example.com/zoom.png",
+    "image": "https://img.freepik.com/premium-vector/zoom-meeting-logo_628407-1899.jpg",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 11,
-    "description": "Video conferencing and online meetings.",
+    "description": "Revolutionize your virtual meetings with Zoom's Productivity Focus Environment, transforming how you conduct and participate in online collaboration. The Core Pomodoro Features introduce 'Meeting Flow Sessions' that structure your video calls around focused work intervals, with intelligent break suggestions that prevent video fatigue and maintain engagement throughout longer sessions. Task Integration seamlessly connects with your calendar and project management tools, allowing you to assign agenda items, action items, and follow-up tasks to specific meeting segments. Productivity Analytics provide comprehensive insights into your meeting effectiveness, tracking participation levels, decision-making efficiency, and time utilization across different types of gatherings. The Motivation and Gamification system introduces 'Meeting Efficiency Badges' for well-structured sessions, 'Active Participation Streaks' for consistent engagement, and 'Collaboration Champion Awards' for fostering productive discussions. The Focus Environment includes 'Distraction-Free Meeting Mode' that optimizes participant displays and minimizes non-essential notifications during critical discussions, while 'Smart Agenda Integration' ensures meetings stay on track with Pomodoro timing. Advanced analytics reveal patterns in meeting productivity, helping you identify optimal durations, participant engagement levels, and follow-through rates on decisions made. Gamification elements include 'Focus Points' earned for conducting efficient meetings, unlocking premium features like extended duration, advanced recording capabilities, and custom backgrounds. The app's unique 'Meeting Health Dashboard' tracks your virtual collaboration metrics, providing personalized recommendations for improving meeting structure and participant engagement. Earn 'Collaboration Credits' for maintaining focused meeting habits, which can be exchanged for team-building features, advanced polling tools, and integration with productivity platforms. The platform includes 'Breakout Session Optimization' that automatically structures small group discussions within Pomodoro intervals, ensuring productive collaboration without time waste.",
     "size": 150,
     "reviews": 250000,
     "ratingAvg": 4.2,
@@ -198,11 +198,11 @@
     ]
   },
   {
-    "image": "https://example.com/tinder.png",
+    "image": "https://static.vecteezy.com/system/resources/previews/056/850/855/non_2x/tinder-logo-on-a-transparent-background-free-png.png",
     "title": "Tinder",
     "companyName": "Match Group, Inc.",
     "id": 12,
-    "description": "Find your perfect match and start dating.",
+    "description": "Transform your dating experience with Tinder's Mindful Connection Environment, designed for intentional relationship building without the overwhelm of constant swiping. The Core Pomodoro Features introduce 'Connection Sessions' that structure your dating app usage around focused intervals for swiping, messaging, and profile optimization, preventing burnout and promoting quality interactions. Task Integration allows you to schedule meaningful conversation sessions, profile updates, and match management within dedicated time blocks, ensuring you invest energy in connections that matter. Productivity Analytics provide insights into your dating patterns, showing peak engagement times, conversation quality metrics, and the effectiveness of different profile elements in attracting compatible matches. The Motivation and Gamification system introduces 'Connection Quality Streaks' for maintaining meaningful conversations, 'Profile Optimization Badges' for creating compelling profiles, and 'Authentic Engagement Awards' for genuine interactions over mindless swiping. The Focus Environment includes 'Intentional Matching Mode' that encourages thoughtful profile review before swiping, while 'Deep Conversation Sessions' provide distraction-free messaging periods for building real connections. Advanced analytics track your 'Connection Success Metrics', helping you understand which conversation patterns lead to meaningful relationships and which profiles attract compatible matches. Gamification elements include 'Mindful Dating Points' earned for completing focused connection sessions, unlocking features like profile boosts, super likes, and advanced match filters. The app's unique 'Dating Wellness Dashboard' monitors your emotional investment and suggests healthy boundaries, ensuring your dating life enhances rather than drains your energy. Earn 'Connection Credits' for maintaining intentional dating habits, redeemable for premium features, compatibility insights, and virtual dating experiences. The platform includes 'Conversation Starters' that help initiate meaningful dialogue during focused messaging sessions, increasing the quality of matches and reducing superficial interactions.",
     "size": 100,
     "reviews": 350000,
     "ratingAvg": 3.7,
@@ -216,11 +216,11 @@
     ]
   },
   {
-    "image": "https://example.com/uber.png",
+    "image": "https://images.icon-icons.com/2407/PNG/512/uber_icon_146079.png",
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "id": 13,
-    "description": "Book rides and get food delivered.",
+    "description": "Optimize your mobility and delivery needs with Uber's Efficiency Focus Environment, designed to transform transportation from a distraction into a seamlessly integrated part of your productive day. The Core Pomodoro Features include 'Travel Time Optimization' that converts rides into productive sessions for planning, learning, or relaxing, with smart scheduling that aligns with your work intervals. Task Integration connects with your calendar and to-do lists, allowing you to schedule rides around your Pomodoro sessions and use travel time for focused activities like audio learning or task planning. Productivity Analytics provide insights into your mobility patterns, showing how different travel times and methods affect your overall productivity and suggesting optimizations for your routine. The Motivation and Gamification system introduces 'Time Optimization Streaks' for productive travel sessions, 'Smart Planner Badges' for efficient scheduling, and 'Sustainability Awards' for choosing eco-friendly options during focused breaks. The Focus Environment includes 'Productive Travel Mode' that creates a mobile office experience with curated content based on your trip duration, while 'Distraction-Free Delivery' ensures your food arrives without interrupting critical work intervals. Advanced analytics reveal correlations between travel patterns and productivity, helping you plan your day for maximum efficiency. Gamification elements include 'Efficiency Points' earned for optimizing travel within your schedule, unlocking premium ride options, priority service, and exclusive promotions. The app's unique 'Mobility Dashboard' tracks your transportation efficiency, suggesting optimal times for different types of trips and helping you integrate travel seamlessly into your focused work schedule. Earn 'Travel Credits' for maintaining efficient travel habits, which can be exchanged for ride discounts, premium features, and sustainability contributions. The platform includes 'Commute Optimization' that helps you transform regular travel into productive sessions with personalized content playlists and task planning tools.",
     "size": 120,
     "reviews": 450000,
     "ratingAvg": 4.1,
@@ -234,11 +234,11 @@
     ]
   },
   {
-    "image": "https://example.com/amazon.png",
+    "image": "https://static.dezeen.com/uploads/2025/05/amazon-rebrand-2025_dezeen_2364_col_1-1.jpg",
     "title": "Amazon Shopping",
     "companyName": "Amazon.com, Inc.",
     "id": 14,
-    "description": "Shop millions of products online.",
+    "description": "Revolutionize your online shopping with Amazon's Mindful Consumption Environment, designed to help you make intentional purchasing decisions without falling into endless browsing traps. The Core Pomodoro Features introduce 'Shopping Sessions' that structure your purchasing activities around focused intervals, with smart breaks that prevent impulse buying and encourage thoughtful consideration. Task Integration connects with your wish lists and household needs, allowing you to assign shopping tasks to specific sessions and maintain organized purchasing schedules. Productivity Analytics provide fascinating insights into your spending patterns, showing when you're most susceptible to impulse purchases, which categories consume most of your shopping time, and how to optimize your buying efficiency. The Motivation and Gamification system introduces 'Smart Shopper Streaks' for maintaining focused purchasing habits, 'Budget Master Badges' for staying within planned limits, and 'Efficient Buyer Awards' for completing shopping quickly without compromising quality. The Focus Environment includes 'Intentional Shopping Mode' that removes distracting recommendations and focuses on your specific needs, while 'Price Alert Integration' ensures you don't miss deals during your planned shopping sessions. Advanced analytics track your 'Shopping Health Score', helping you distinguish between needs and wants while optimizing your purchasing efficiency. Gamification elements include 'Mindful Shopping Points' earned for completing focused sessions without impulse purchases, unlocking exclusive deals, early access to sales, and premium delivery options. The app's unique 'Consumption Dashboard' provides a holistic view of your purchasing patterns, suggesting optimal shopping times and helping you plan for major purchases within your budget and schedule. Earn 'Smart Credits' for maintaining intentional shopping habits, which can be exchanged for extended return windows, gift cards, and exclusive member benefits. The platform includes 'List-First Shopping' that encourages creating detailed shopping lists before sessions, ensuring every purchase aligns with your actual needs.",
     "size": 200,
     "reviews": 600000,
     "ratingAvg": 4.3,
@@ -252,11 +252,11 @@
     ]
   },
   {
-    "image": "https://example.com/gmail.png",
+    "image": "https://thumbs.dreamstime.com/b/gmail-email-logo-icon-beautiful-meticulously-designed-225149202.jpg",
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 15,
-    "description": "Email service from Google.",
+    "description": "Transform email management from a constant distraction into a structured productivity powerhouse with Gmail's Focus Inbox Environment. The Core Pomodoro Features introduce dedicated email processing sessions with customizable intervals for triage, deep reading, and response drafting, preventing inbox overwhelm and promoting thoughtful communication. Task Integration seamlessly connects with Google Tasks and Calendar, allowing you to convert emails into actionable items and schedule response sessions around your most productive hours. Productivity Analytics provide comprehensive insights into your communication patterns, tracking average response times, peak email productivity hours, and the types of messages that require the most attention. The Motivation and Gamification system introduces 'Inbox Zero Streaks' for maintaining clean email discipline, 'Response Time Champion Badges' for prompt yet thoughtful replies, and 'Communication Efficiency Awards' for managing high volumes without quality loss. The Focus Environment includes 'Deep Work Email Mode' that batches notifications and processes emails in focused intervals, while 'Smart Priority Sorting' ensures critical messages receive attention during your most alert periods. Advanced analytics reveal your most effective communication patterns, helping you optimize when and how you handle different types of correspondence. Gamification elements include 'Focus Points' earned for completing email sessions efficiently, unlocking premium Gmail features, increased storage, and advanced productivity tools. The app's unique 'Communication Health Dashboard' tracks your email wellness, balancing responsiveness with focused work time, and suggesting improvements to your workflow. Earn 'Productivity Credits' for maintaining structured email habits, which can be exchanged for workspace customization, add-on integrations, and priority support. The platform includes 'Template Sessions' that help you create and refine email templates during focused blocks, dramatically reducing time spent on routine correspondence while maintaining quality.",
     "size": 50,
     "reviews": 800000,
     "ratingAvg": 4.4,
@@ -270,11 +270,11 @@
     ]
   },
   {
-    "image": "https://example.com/maps.png",
+    "image": "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 16,
-    "description": "Navigation and location services.",
+    "description": "Reimagine navigation and location discovery with Google Maps' Journey Focus Environment, designed to transform travel into productive, mindful experiences. The Core Pomodoro Features integrate travel planning and navigation into your daily schedule, with smart routing that considers your focus sessions and suggests optimal departure times that won't interrupt deep work intervals. Task Integration connects with your calendar and to-do lists, allowing you to plan multi-stop journeys that align with your daily goals and ensure efficient time management. Productivity Analytics provide insights into your travel patterns, showing time spent commuting, most efficient routes, and how different journey types affect your overall daily productivity. The Motivation and Gamification system introduces 'Efficient Navigator Streaks' for optimized route planning, 'Explorer Badges' for discovering new places during focused breaks, and 'Time Saver Awards' for reducing commute times through smart scheduling. The Focus Environment includes 'Productive Commute Mode' that suggests audio learning content based on journey duration, while 'Smart Break Destinations' recommend nearby locations for rejuvenation during Pomodoro pauses. Advanced analytics reveal correlations between travel patterns and work performance, helping you plan your location-based activities for maximum efficiency. Gamification elements include 'Journey Points' earned for optimizing travel around your schedule, unlocking premium features like offline maps, real-time traffic prediction, and AR navigation. The app's unique 'Mobility Dashboard' tracks your travel efficiency, suggesting when to combine trips and how to transform commute time into productive sessions. Earn 'Navigation Credits' for maintaining efficient travel habits, which can be exchanged for advanced route planning, fuel efficiency tips, and exclusive local insights. The platform includes 'Focus-Friendly Routing' that automatically suggests routes with minimal distractions and optimal conditions for productive travel, whether you're driving, walking, or using public transit.",
     "size": 180,
     "reviews": 1000000,
     "ratingAvg": 4.2,
@@ -288,11 +288,11 @@
     ]
   },
   {
-    "image": "https://example.com/chrome.png",
+    "image": "https://www.google.com/images/branding/product/2x/chrome_96in128dp.png",
     "title": "Google Chrome",
     "companyName": "Google LLC",
     "id": 17,
-    "description": "Fast and secure web browser.",
+    "description": "Transform your web browsing experience with Chrome's Focus Browser Environment, a comprehensive platform for intentional internet usage and productive online sessions. The Core Pomodoro Features include built-in focus sessions that help you structure web research, content consumption, and online tasks around productive intervals, with smart tab management that reduces cognitive load during deep work. Task Integration seamlessly connects with your productivity tools, allowing you to assign research topics, reading lists, and online tasks to specific browsing sessions while maintaining focus on current priorities. Productivity Analytics provide deep insights into your online patterns, showing time spent on different types of websites, peak productivity hours for research, and the most efficient ways to gather information online. The Motivation and Gamification system introduces 'Focus Browser Streaks' for maintaining concentrated online sessions, 'Research Master Badges' for efficient information gathering, and 'Digital Wellness Awards' for balanced internet usage. The Focus Environment includes 'Distraction-Free Reading Mode' that transforms articles into clean, focused layouts, while 'Session-Based Tab Groups' help you organize research around specific Pomodoro intervals. Advanced analytics track your browsing efficiency, revealing which sites and search patterns lead to the fastest information discovery and task completion. Gamification elements include 'Focus Points' earned for completing concentrated browsing sessions, unlocking premium extensions, advanced productivity features, and customization options. The app's unique 'Digital Wellness Dashboard' monitors your online health, suggesting optimal browsing patterns and helping you maintain a healthy relationship with the internet. Earn 'Browsing Credits' for maintaining focused internet habits, which can be exchanged for premium themes, cloud storage, and productivity tools. The platform includes 'Research Assistant' that helps you organize findings and citations during focused sessions, dramatically improving the quality and efficiency of online research.",
     "size": 100,
     "reviews": 1200000,
     "ratingAvg": 4.5,
@@ -306,11 +306,11 @@
     ]
   },
   {
-    "image": "https://example.com/drive.png",
+    "image": "https://www.google.com/images/branding/product/2x/drive_96in128dp.png",
     "title": "Google Drive",
     "companyName": "Google LLC",
     "id": 18,
-    "description": "Store and share files in the cloud.",
+    "description": "Revolutionize cloud storage and file management with Google Drive's Organized Focus Environment, designed to help you maintain digital order without sacrificing productive time. The Core Pomodoro Features include dedicated file management sessions that structure your organization tasks around focused intervals, preventing the endless tidying that can consume your day. Task Integration connects seamlessly with your workflow, allowing you to assign file organization, document creation, and collaboration tasks to specific Pomodoro sessions based on priority and energy levels. Productivity Analytics provide comprehensive insights into your digital workspace, showing file access patterns, collaboration efficiency, and how organized storage affects your workflow speed. The Motivation and Gamification system introduces 'Digital Organization Streaks' for maintaining tidy file structures, 'Collaboration Efficiency Badges' for smooth team workflows, and 'Storage Master Awards' for optimal space utilization. The Focus Environment includes 'Distraction-Free Document Mode' that minimizes interface elements during focused writing or editing, while 'Smart Organization Sessions' suggest optimal times for file maintenance based on your usage patterns. Advanced analytics reveal correlations between file organization and productivity, helping you design a digital workspace that supports rather than hinders your work. Gamification elements include 'Organization Points' earned for completing focused file management sessions, unlocking additional storage, advanced sharing features, and priority support. The app's unique 'Digital Workspace Dashboard' tracks your file health, suggesting archive strategies and identifying outdated or duplicate files that waste space and attention. Earn 'Drive Credits' for maintaining organized digital habits, which can be exchanged for expanded storage, premium templates, and advanced collaboration tools. The platform includes 'Smart Filing Assistant' that learns your organization patterns and suggests optimal file locations during focused sessions, dramatically reducing time spent searching for documents.",
     "size": 80,
     "reviews": 500000,
     "ratingAvg": 4.3,
@@ -324,11 +324,11 @@
     ]
   },
   {
-    "image": "https://example.com/photos.png",
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-google-photos-logo-icon-svg-download-png-1721665.png",
     "title": "Google Photos",
     "companyName": "Google LLC",
     "id": 19,
-    "description": "Store, organize and edit your photos.",
+    "description": "Transform photo and video management with Google Photos' Memory Curation Environment, designed for intentional digital preservation without overwhelming your schedule. The Core Pomodoro Features introduce dedicated curation sessions that structure photo organization, album creation, and memory rediscovery around focused intervals, making digital decluttering manageable and enjoyable. Task Integration connects with your calendar and life events, allowing you to schedule photo organization around important moments and maintain a meaningful visual archive without constant effort. Productivity Analytics provide insights into your visual memory patterns, showing how you capture and organize life's moments, and suggesting optimal times for curation based on your habits. The Motivation and Gamification system introduces 'Memory Curator Streaks' for consistent photo organization, 'Storyteller Badges' for creating meaningful albums, and 'Preservation Master Awards' for comprehensive life documentation. The Focus Environment includes 'Distraction-Free Curation Mode' that helps you focus on organizing memories without getting lost in endless scrolling, while 'Smart Album Suggestions' propose themed collections based on your photo patterns. Advanced analytics reveal your photography habits, helping you understand when you capture the most meaningful moments and how to better organize your visual history. Gamification elements include 'Curation Points' earned for completing focused photo sessions, unlocking additional storage, advanced editing tools, and premium printing options. The app's unique 'Memory Wellness Dashboard' tracks your visual documentation health, encouraging a balanced approach to capturing and preserving life's moments. Earn 'Photo Credits' for maintaining organized photo habits, which can be exchanged for print credits, photo books, and professional editing services. The platform includes 'Legacy Session Planning' that helps you curate meaningful collections during focused intervals, ensuring your digital memories are preserved and accessible for future generations.",
     "size": 120,
     "reviews": 400000,
     "ratingAvg": 4.4,
@@ -342,11 +342,11 @@
     ]
   },
   {
-    "image": "https://example.com/calendar.png",
+    "image": "https://www.google.com/images/branding/product/2x/calendar_96in128dp.png",
     "title": "Google Calendar",
     "companyName": "Google LLC",
     "id": 20,
-    "description": "Organize your schedule and events.",
+    "description": "Master time management with Google Calendar's Time Architecture Environment, a comprehensive platform for designing your ideal productive day. The Core Pomodoro Features are deeply integrated into scheduling, automatically suggesting optimal timing for focus sessions, breaks, and meetings based on your energy patterns and historical productivity data. Task Integration transforms your to-do lists into scheduled time blocks, ensuring every important task receives dedicated attention in your daily rhythm. Productivity Analytics provide revolutionary insights into your time usage, showing peak productivity periods, meeting effectiveness, and the true cost of interruptions on your focused work. The Motivation and Gamification system introduces 'Time Master Streaks' for maintaining optimal schedules, 'Focus Architecture Badges' for well-designed days, and 'Balance Achievement Awards' for harmonizing work and life commitments. The Focus Environment includes 'Deep Work Protection' that automatically guards your focus blocks against meeting requests, while 'Intelligent Scheduling' suggests optimal times for different types of tasks based on your historical performance. Advanced analytics reveal your most productive patterns, helping you design schedules that maximize output while maintaining energy and preventing burnout. Gamification elements include 'Time Points' earned for adhering to well-designed schedules, unlocking premium features like advanced analytics, scheduling assistance, and team coordination tools. The app's unique 'Life Architecture Dashboard' provides a holistic view of how you spend your time, suggesting improvements to achieve your personal and professional goals. Earn 'Schedule Credits' for maintaining intentional time management, which can be exchanged for coaching sessions, productivity workshops, and advanced planning tools. The platform includes 'Energy-Aware Scheduling' that learns your natural rhythms and automatically designs Pomodoro sessions around your peak performance times, ensuring you tackle challenging tasks when you're most capable and save routine work for lower-energy periods.",
     "size": 60,
     "reviews": 300000,
     "ratingAvg": 4.1,

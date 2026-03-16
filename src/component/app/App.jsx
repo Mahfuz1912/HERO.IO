@@ -48,7 +48,7 @@ const App = () => {
   }
 
   return (
-    <div className="bg-linear-to-b from-gray-100 to-gray-200 py-10 min-h-screen">
+    <div className="bg-linear-to-b from-gray-100 to-gray-200 py-10 pt-22 min-h-screen">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center text-gray-800">
           OUR ALL APPLICATIONS

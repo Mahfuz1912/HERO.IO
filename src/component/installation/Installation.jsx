@@ -53,7 +53,7 @@ const Installation = () => {
     setData(sortedData);
   };
   return (
-    <div className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 min-h-screen">
+    <div className="py-12 pt-20 px-4 sm:px-6 lg:px-8 bg-gray-50 min-h-screen">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mb-4">
@@ -93,7 +93,7 @@ const Installation = () => {
                 You haven't installed any apps yet.
               </p>
               <button
-                className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white border-none hover:from-[#9F62F2] hover:to-[#632EE3] transition-all duration-200 px-8 py-3 mt-4"
+                className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white border-none  transition-all duration-200 px-8 py-3 mt-4"
                 onClick={handleGoBack}
               >
                 Go Back!
