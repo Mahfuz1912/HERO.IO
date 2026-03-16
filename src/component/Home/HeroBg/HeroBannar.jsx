@@ -5,7 +5,7 @@ import AppstoreImg from "/assets/app-store.png";
 import { Link } from "react-router-dom";
 const HeroBannar = () => {
   return (
-    <div className="mt-5 flex flex-col items-center text-center gap-6">
+    <div className="pt-7 flex flex-col items-center text-center gap-6">
       <h1 className="md:text-[72px] md:w-150 text-5xl font-bold">
         We Build{" "}
         <span className="font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
