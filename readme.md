@@ -1,71 +1,4 @@
-# 🦸‍♂️ Assignment 03 — Hero IO
 
-
----
-
-
-# 🐣 Basic Requirements
-
-- Make the Application Responsive for All the Devices
-- Do minimum 5 commits to your github Repository
-- Give a meaning full name to your application
-- Make Sure on Production Application is error Free
-- Add a Readme.md with App Name , Description & Technologies
-
----
-
-# 🔧 Main Requirements
-
-## 1. 🧱 Layout & Data Design
-
-#### Header
-
-- The header must include:
-  - A logo.on clicking it user will be navigated to home page.
-  - A navigation bar with links [ `home` , `apps` , `installation` ] and active route indication.
-  - A `Contribution` button as Figma linking to the your GitHub profile.
-
-#### Footer
-
-- Design a custom footer using your own creativity and style.
-
-#### Data
-
-- Create an JSON Array of minimum 12-20 objects for app data using the following structure:
-  ```js
-  {
-    image: string;
-    title: string;
-    companyName: string;
-    id: number;
-    description: string;
-    size: number;
-    reviews: number;
-    ratingAvg: number;
-    downloads: number;
-    ratings: [
-      { name: "1 star"; count: number },
-      { name: "2 star"; count: number },
-      { name: "3 star"; count: number },
-      { name: "4 star"; count: number },
-      { name: "5 star"; count: number }
-    ];
-  }
-  ```
-
----
-
-## 2. 🏠 Home Page
-
-#### Banner
-
-- Must contain a center-aligned heading, text, and two buttons.
-- “App Store” button will redirect to the App Store.
-- “Play Store” button will redirect to the Play Store.
-
-#### States Section
-
-- Must contain three state cards as shown in Figma.
 
 #### Top Apps Section
 
@@ -94,17 +27,7 @@
   - Search will be case-insensitive
   - If no app matches, display a “No App Found” message.
 
-#### App Section
 
-- Display all apps from the JSON data.
-- Each app card should include:
-  - App title
-  - Image
-  - Download count
-  - Average rating
-- Clicking on an app card should navigate to the App Details page.
-
----
 
 ## 4.📊 App Details Page
 

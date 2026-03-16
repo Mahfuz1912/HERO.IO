@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import SingleCard from "./SingleCard";
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -19,7 +20,7 @@ const App = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
       <div>
-        <div className="flex justify-between items-center mt-10 px-10">
+        <div className="flex justify-between flex-col md:flex-row items-center mt-10">
           <h1>{data.length} Apps Found</h1>
 
           <label className="input">
@@ -42,7 +43,11 @@ const App = () => {
             <input type="search" required placeholder="Search" />
           </label>
         </div>
-        <div></div>
+        <div className="mt-3 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+          {data.map((item) => (
+            <SingleCard key={item.id} data={item} />
+          ))}
+        </div>
       </div>
     </div>
   );
