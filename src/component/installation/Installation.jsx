@@ -80,7 +80,7 @@ const Installation = () => {
 
         <div className="space-y-6">
           {data.length === 0 && (
-            <div className="flex flex-col items-center justify-center min-h-[60vh] gap-6 bg-white rounded-2xl shadow-lg p-8">
+            <div className="flex flex-col items-center justify-center gap-6 rounded-2xl p-8">
               <img
                 src={error}
                 className="w-32 h-32 sm:w-40 sm:h-40"
