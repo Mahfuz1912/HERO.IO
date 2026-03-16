@@ -28,7 +28,7 @@ const TopReted = () => {
       </div>
 
       <Link to="/app" className="my-10 inline-block">
-        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-none hover:from-[#9F62F2] hover:to-[#632EE3] hover:scale-105 transition-all duration-200">
+        <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white border-none hover:from-[#9F62F2] hover:to-[#632EE3] hover:scale-105 transition-all duration-200">
           Show All
         </button>
       </Link>

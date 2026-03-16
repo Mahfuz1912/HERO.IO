@@ -22,7 +22,7 @@ const SingleCard = ({ data }) => {
         <div className="flex justify-between mt-6">
           <button className="bg-lime-50 text-green-500 px-4 py-2 rounded-lg flex items-center gap-2">
             <img className="w-4 h-4" src={downloadeImg} alt="Downloads" />
-            {data.downloads}
+            {data.downloads / 1000000}M
           </button>
 
           <button className="bg-orange-50 text-orange-500 px-4 py-2 rounded-lg flex items-center gap-2">

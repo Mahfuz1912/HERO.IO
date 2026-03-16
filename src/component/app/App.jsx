@@ -9,11 +9,9 @@ const App = () => {
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);
-
-  console.log(data);
   return (
-    <div className="bg-[#D9D9D9]">
-      <h1 className="text-3xl font-bold text-center pt-10">
+    <div className="bg-[#D9D9D9] py-10">
+      <h1 className="text-3xl font-bold text-center">
         OUR ALL APPLICATIONS
       </h1>
       <p className="text-center mt-4">
@@ -21,7 +19,7 @@ const App = () => {
       </p>
       <div>
         <div className="flex justify-between flex-col md:flex-row items-center mt-10">
-          <h1>{data.length} Apps Found</h1>
+          <h1 className="text-2xl font-semibold">{data.length} Apps Found</h1>
 
           <label className="input">
             <svg

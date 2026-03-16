@@ -2,19 +2,12 @@ import { useLoaderData } from "react-router-dom";
 import downloadeImage from "/assets/icon-downloads.png";
 import ratingImage from "/assets/icon-ratings.png";
 import reviewImage from "/assets/icon-review.png";
-import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, Tooltip, XAxis, YAxis } from "recharts";
+import { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 const SingleCardDetails = () => {
-  //   const params = useParams();
-  //   useEffect(() => {
-  //     fetch("/Data.json")
-  //       .then((res) => res.json())
-  //       .then((data) => {
-  //         const singleData = data.find((detail) => detail.id == params.id);
-  //         console.log(singleData);
-  //       });
-  //   }, [params.id]);
-
   const data = useLoaderData();
+
   const {
     title,
     image,
@@ -29,33 +22,25 @@ const SingleCardDetails = () => {
   } = data;
   const sortedRatings = [...ratings].sort((a, b) => b.count - a.count);
 
-  //   const renderStars = (rating) => {
-  //     const fullStars = Math.floor(rating);
-  //     const hasHalf = rating % 1 !== 0;
-  //     const stars = [];
-  //     for (let i = 0; i < fullStars; i++) {
-  //       stars.push(
-  //         <svg key={i} className="w-5 h-5 fill-current text-yellow-500" viewBox="0 0 20 20">
-  //           <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-  //         </svg>
-  //       );
-  //     }
-  //     if (hasHalf) {
-  //       stars.push(
-  //         <svg key="half" className="w-5 h-5 fill-current text-yellow-500" viewBox="0 0 20 20">
-  //           <defs>
-  //             <linearGradient id="halfGrad">
-  //               <stop offset="50%" stopColor="currentColor" />
-  //               <stop offset="50%" stopColor="#d1d5db" /> {/* gray-300 */}
-  //             </linearGradient>
-  //           </defs>
-  //           <path fill="url(#halfGrad)" d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-  //         </svg>
-  //       );
-  //     }
-  //     // fill remaining with empty stars (optional, but we'll just return what we have)
-  //     return stars;
-  //   };
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    const appInstalled = installedApps.some(app => app.id === id);
+    setIsInstalled(appInstalled);
+  }, [id]);
+
+  const handleInstall = (id) => {
+    const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    if (!installedApps.some(app => app.id === id)) {
+      installedApps.push(data);
+      localStorage.setItem("installedApps", JSON.stringify(installedApps));
+      setIsInstalled(true);
+      toast.success(`${title} installed successfully!`);
+    } else {
+      toast.info(`${title} is already installed.`);
+    }
+  };
 
   return (
     <div>
@@ -94,8 +79,12 @@ const SingleCardDetails = () => {
               <p className="text-5xl font-extrabold">{reviews / 1000}K</p>
             </div>
           </div>
-          <button className="bg-[#00D390] btn text-white">
-            Install Now ({size} MB)
+          <button
+            onClick={() => handleInstall(id)}
+            className={`btn text-white ${isInstalled ? 'bg-gray-500' : 'bg-[#00D390]'}`}
+            disabled={isInstalled}
+          >
+            {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
