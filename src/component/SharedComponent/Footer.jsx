@@ -19,21 +19,21 @@ const Footer = () => {
           <h1 className="font-medium text-lg sm:text-xl mb-2">Social Links</h1>
           <div className="flex justify-center sm:justify-end gap-2">
             <Link
-              to="https://twitter.com/Mahfuz1912"
+              to="https://x.com/Mahfuz1912"
               target="blank"
               className="text-xl sm:text-2xl text-black rounded-full bg-white p-2 hover:bg-gray-200 transition-colors duration-200"
             >
               <RiTwitterXFill />
             </Link>
             <Link
-              to="https://www.instagram.com/mahfuz1912/"
+              to="https://www.linkedin.com/in/sabitalmahfuz"
               target="blank"
               className="text-xl sm:text-2xl text-black rounded-full bg-white p-2 hover:bg-gray-200 transition-colors duration-200"
             >
               <RiLinkedinLine />
             </Link>
             <Link
-              to="https://www.linkedin.com/in/mahfuz1912/"
+              to="https://www.facebook.com/smahfuz945"
               target="blank"
               className="text-xl sm:text-2xl text-black rounded-full bg-white p-2 hover:bg-gray-200 transition-colors duration-200"
             >
