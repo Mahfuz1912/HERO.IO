@@ -3,6 +3,7 @@ import downloadsImg from "/assets/icon-downloads.png";
 import ratingImg from "/assets/icon-ratings.png";
 import error from "/assets/App-Error.png";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 const Installation = () => {
   const [data, setData] = useState([]);
 
@@ -34,7 +35,6 @@ const Installation = () => {
         const updatedData = data.filter((app) => app.id !== id);
         setData(updatedData);
         localStorage.setItem("installedApps", JSON.stringify(updatedData));
-
       }
     });
   };
@@ -56,6 +56,9 @@ const Installation = () => {
     <div className="py-12 pt-20 px-4 sm:px-6 lg:px-8 bg-gray-50 min-h-screen">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
+          <Helmet>
+            <title>{`${data.length} Installed Apps - HERO.IO`}</title>
+          </Helmet>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mb-4">
             Your Installed Apps
           </h1>

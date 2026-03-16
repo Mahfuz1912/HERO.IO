@@ -6,6 +6,7 @@ import { Bar, BarChart, Tooltip, XAxis, YAxis } from "recharts";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 const SingleCardDetails = () => {
   const data = useLoaderData();
 
@@ -81,6 +82,9 @@ const SingleCardDetails = () => {
   return (
     <div className="w-11/12 mx-auto">
       <div className="md:flex gap-4 pt-22">
+        <Helmet>
+          <title>{title} - HERO.IO</title>
+        </Helmet>
         <div className="flex md:w-1/2 justify-center items-center">
           <img
             src={image}

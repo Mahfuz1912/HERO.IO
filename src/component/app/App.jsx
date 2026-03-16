@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SingleCard from "./SingleCard";
 import error from "/assets/App-Error.png";
+import { Helmet } from "react-helmet";
 const App = () => {
   const [allData, setAllData] = useState([]);
   const [data, setData] = useState([]);
@@ -38,7 +39,7 @@ const App = () => {
 
   if (loading) {
     return (
-      <div className="bg-gradient-to-b from-gray-100 to-gray-200 py-8 sm:py-10 md:py-12 min-h-screen flex items-center justify-center px-4">
+      <div className="bg-linear-to-b from-gray-100 to-gray-200 py-8 sm:py-10 md:py-12 min-h-screen flex items-center justify-center px-4">
         <div className="text-center">
           <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-b-2 border-[#632EE3] mx-auto"></div>
           <p className="mt-3 sm:mt-4 text-gray-600 text-sm sm:text-base">
@@ -50,7 +51,10 @@ const App = () => {
   }
 
   return (
-    <div className="bg-gradient-to-b from-gray-100 to-gray-200 py-8 sm:py-10 md:py-12 lg:py-16 min-h-screen">
+    <div className="bg-linear-to-b from-gray-100 to-gray-200 py-8 sm:py-10 md:py-12 lg:py-22 min-h-screen">
+      <Helmet>
+        <title>{`${data.length} Apps - HERO.IO`}</title>
+      </Helmet>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-3 sm:mb-4">
           OUR ALL APPLICATIONS

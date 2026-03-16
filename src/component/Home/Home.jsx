@@ -2,10 +2,14 @@ import React from "react";
 import HeroBannar from "./HeroBg/HeroBannar";
 import Badge from "./Badge/Badge";
 import TopReted from "./TopReted/TopReted";
+import {Helmet} from "react-helmet";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-screen bg-linear-to-b from-gray-50 to-white">
+      <Helmet>
+        <title>Home - HERO.IO</title>
+      </Helmet>
       <HeroBannar />
       <Badge />
       <div className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 xl:px-12">

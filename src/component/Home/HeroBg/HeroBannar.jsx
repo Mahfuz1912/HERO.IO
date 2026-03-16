@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 const HeroBannar = () => {
   return (
     <div className="pt-16 sm:pt-20 md:pt-24 lg:pt-28 pb-8 sm:pb-10 md:pb-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center gap-4 sm:gap-6">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold leading-tight max-w-4xl">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold leading-tight max-w-xl">
         We Build{" "}
-        <span className="font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+        <span className="font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
           Productive
         </span>{" "}
         Apps
       </h1>
-      <p className="text-gray-600 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed">
+      <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
         At HERO.IO , we craft innovative apps designed to make everyday life
         simpler, smarter, and more exciting. <br className="hidden sm:block" />{" "}
         Our goal is to turn your ideas into digital experiences that truly make
