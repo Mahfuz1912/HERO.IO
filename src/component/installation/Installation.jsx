@@ -6,12 +6,20 @@ import Swal from "sweetalert2";
 import { Helmet } from "react-helmet";
 const Installation = () => {
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const installedApps = localStorage.getItem("installedApps");
     if (installedApps) {
       setData(JSON.parse(installedApps));
     }
+
+    // Show loading for 3 seconds
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
   }, []);
   const handleGoBack = () => {
     window.history.back();
@@ -38,7 +46,18 @@ const Installation = () => {
       }
     });
   };
-
+  if (loading) {
+    return (
+      <div className="bg-linear-to-b from-gray-100 to-gray-200 py-8 sm:py-10 md:py-12 min-h-screen flex items-center justify-center px-4">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-b-2 border-[#632EE3] mx-auto"></div>
+          <p className="mt-3 sm:mt-4 text-gray-600 text-sm sm:text-base">
+            Loading applications...
+          </p>
+        </div>
+      </div>
+    );
+  }
   const shortBySize = (order) => {
     const sortedData = [...data].sort((a, b) => {
       if (order === "h2l") {
