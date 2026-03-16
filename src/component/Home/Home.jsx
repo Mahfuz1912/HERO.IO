@@ -5,12 +5,14 @@ import TopReted from "./TopReted/TopReted";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-linear-to-b from-gray-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <HeroBannar />
       <Badge />
-      <div className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto space-y-20">
-          <TopReted />
+      <div className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 xl:px-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="space-y-16 sm:space-y-20 md:space-y-24 lg:space-y-28">
+            <TopReted />
+          </div>
         </div>
       </div>
     </div>

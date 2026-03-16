@@ -80,12 +80,12 @@ const SingleCardDetails = () => {
 
   return (
     <div className="w-11/12 mx-auto">
-      <div className="flex gap-4 pt-22">
-        <div className="flex w-1/2 justify-center items-center">
+      <div className="md:flex gap-4 pt-22">
+        <div className="flex md:w-1/2 justify-center items-center">
           <img
             src={image}
             alt={title}
-            className="w-87.5 h-87.5 object-cover rounded-lg"
+            className="md:w-87.5 md:h-87.5 w-50 h-50 object-cover rounded-lg"
           />
         </div>
         <div className="flex flex-col space-y-6 w-full">
@@ -117,9 +117,8 @@ const SingleCardDetails = () => {
           </div>
           <button
             onClick={() => handleInstall(id)}
-            className={`btn text-white ${isInstalled ? "bg-gray-500" : "bg-[#00D390]"} w-1/5 border-none`}
+            className={`btn text-white ${isInstalled ? "bg-gray-500" : "bg-[#00D390]"} md:w-2/4 lg:1/3 w-3/5 xl:w-1/4 border-none`}
             disabled={isInstalled}
-        
           >
             {isInstalled ? "Installed" : `Install Now (${size} MB)`}
           </button>

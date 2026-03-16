@@ -15,20 +15,22 @@ const TopReted = () => {
     .slice(0, 12);
   console.log(topRatedApps);
   return (
-    <div className="text-center mt-10">
-      <h1 className="text-5xl font-bold">Trending Apps</h1>
-      <p className="text-[#627382]">
+    <div className="text-center mt-8 sm:mt-10 md:mt-12">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 px-4">
+        Trending Apps
+      </h1>
+      <p className="text-gray-600 mt-2 sm:mt-3 text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-4">
         Explore All Trending Apps on the Market developed by us
       </p>
 
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+      <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
         {topRatedApps.map((item) => (
           <SingleCard key={item.id} data={item} />
         ))}
       </div>
 
-      <Link to="/app" className="my-10 inline-block">
-        <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white border-none transition-all duration-200 px-6">
+      <Link to="/app" className="my-8 sm:my-10 md:my-12 inline-block">
+        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-none hover:from-[#9F62F2] hover:to-[#632EE3] transition-all duration-200 px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base">
           Show All
         </button>
       </Link>
