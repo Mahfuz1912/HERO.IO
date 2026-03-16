@@ -22,15 +22,34 @@ const Installation = () => {
     localStorage.setItem("installedApps", JSON.stringify(updatedData));
   };
 
+  const shortBySize = (order) => {
+    const sortedData = [...data].sort((a, b) => {
+      if (order === "h2l") {
+        return b.size - a.size;
+      }
+
+      if (order === "l2h") {
+        return a.size - b.size;
+      }
+        return 0;
+    });
+    setData(sortedData);
+  };
   return (
     <div className="text-center py-10">
       <h1 className="text-5xl font-bold">Your Installed Apps</h1>
       <p>Explore All Trending Apps on the Market developed by us</p>
       <div className="flex justify-between items-center gap-4 mt-4">
         <p className="text-2xl font-semibold">{data.length} App Found</p>
-        <select name="" id="">
-          <option value="">High to Low</option>
-          <option value="">Low to High</option>
+        <select
+          name=""
+          id=""
+          className="select select-bordered w-32"
+          onChange={(e) => shortBySize(e.target.value)}
+        >
+          <option selected>Sort By Size</option>
+          <option value="h2l">High to Low</option>
+          <option value="l2h">Low to High</option>
         </select>
       </div>
       <div>
