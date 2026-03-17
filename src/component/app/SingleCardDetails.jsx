@@ -102,7 +102,7 @@ const SingleCardDetails = () => {
             </span>
           </p>
           <div className="divider"></div>
-          <div className="flex gap-10 mt-4 justify-start items-center">
+          <div className="flex gap-10 md:flex-row flex-col mt-4 justify-start items-center">
             <div className="flex flex-col items-center">
               <img className="w-10 h-10" src={downloadeImage} alt="Downloads" />
               <p>Downloads</p>
