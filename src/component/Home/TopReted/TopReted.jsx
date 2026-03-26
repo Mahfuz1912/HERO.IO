@@ -75,7 +75,7 @@ const TopReted = () => {
         Explore All Trending Apps on the Market developed by us
       </p>
 
-      <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
+      <div className="mt-8 sm:mt-10 text-start md:mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
         {topRatedApps.map((item) => (
           <SingleCard key={item.id} data={item} />
         ))}

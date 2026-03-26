@@ -43,7 +43,10 @@ const Footer = () => {
         </nav>
       </footer>
       <p className="text-sm sm:text-base text-gray-400 mt-4 sm:mt-6">
-        Copyright © {new Date().getFullYear()} - All right reserved
+        Copyright © {new Date().getFullYear()} - All right reserved by{" "}
+        <span className="font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+          Sabit Al Mahfuz
+        </span>
       </p>
     </div>
   );
